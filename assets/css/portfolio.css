@@ -1,0 +1,205 @@
+
+
+
+html {
+  scroll-padding-top: 70px; /* height of sticky header */
+}
+body{
+	font-family: 'ABeeZee', sans-serif;
+	color: white;
+	letter-spacing: 3px;
+}
+
+.active{
+	border: 2px solid #FFD300;
+	border-bottom: 4px solid white;
+  display: inline-block;
+  line-height: 0.85;
+  
+}
+
+
+.newclass{
+  display: inline-block;
+  
+}
+
+nav ul a:hover{
+	border: 2px solid #FFD300;
+	border-bottom: 4px solid white;
+  display: inline-block;
+  line-height: 0.85;
+}
+
+nav {
+  transition: background .5s;
+  opacity: 0;
+   /* control how smooth the background changes */
+}
+
+.nav-active{
+  background-color: #652ec7;
+  transition: background .5s;
+  opacity: 1;
+}
+
+.nav-sleep{
+  opacity: 0;
+  transition: background .5s;
+}
+
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #FFD300;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+  background: linear-gradient(to bottom, #FFD300 0%, #652EC7 100%);
+}
+
+h3{
+	color: white;
+}
+
+.aboutpara{
+	background: linear-gradient(to bottom, #FFD300 0%, #652EC7 100%);  
+  
+
+color: black;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+.list-inline {
+    
+    display: flex;
+  justify-content: center;
+}
+
+
+.list-inline li a {
+  
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.list-inline  li a:hover {
+  background-color: white;
+}
+
+.list-inline-project {
+   
+    display: flex;
+  justify-content: center;
+  
+ 
+}
+
+.list-inline-project a {
+ 
+}
+
+.gityt{
+  
+  background-color: black; color: black;
+}
+.gityt.image {
+  display: block;
+  width: 100%;
+  height: 99%;
+  
+}
+
+.middle {
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+  padding-bottom: 0px;
+  transition: .3s ease;
+  opacity: 0;
+}
+
+.gityt:hover .middle {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+.exppara{
+	background: black;
+linear-gradient(to bottom, #FFD300 0%, #652EC7 100%);
+color: black;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+.expcards{
+	display: flex;
+  justify-content: center;
+}
+
+.edupara{
+	background: linear-gradient(to bottom, #FFD300 0%, #652EC7 100%);
+
+color: black;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+.skillpara{
+	background: linear-gradient(to bottom, #FFD300 0%, #652EC7 100%);
+}
+
+.contactpara{
+	
+  height: 500px; /* You must set a specified height */
+  
+  background-color: black;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+.list-inline-contact {
+    
+    display: flex;
+  justify-content: center;
+  padding-left: 0;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    margin-left: -5px;
+}
+
+
+
+@media screen and (min-width: 0px) {
+  body {font-size: 10px;}
+  .navbar {font-size:1.2em;}
+  footer {font-size: 0.6em; height: 5em; padding-top: 1.4em;}
+  h4 {margin-top: 1em;}
+}
+
+@media screen and (min-width: 768px) {
+  body {font-size: 13px;}
+  .navbar {font-size: 1.2em;}
+  footer {font-size: 1em;  height: 3em;
+  padding-top: 1.4em;}
+  h4 {margin-top: 0em;}
+  }
+
+@media screen and (min-width: 992px) {
+  body {font-size: 14px;}
+}
+
+@media screen and (min-width: 1200px) {
+  body {font-size: 16px;}
+}
